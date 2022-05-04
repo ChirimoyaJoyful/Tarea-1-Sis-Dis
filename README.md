@@ -9,3 +9,6 @@
 CONFIGURACION DE REDIS: 
 - Se utiliza una memoria de 2 megabytes.
 - Se utiliza una política de remoción LRU (Least Recently Used).
+
+
+Se utilizó en `init.sql` provisto por los ayudantes.
