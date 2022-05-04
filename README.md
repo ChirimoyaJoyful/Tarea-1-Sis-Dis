@@ -9,6 +9,7 @@
 CONFIGURACION DE REDIS: 
 - Se utiliza una memoria de 2 megabytes.
 - Se utiliza una política de remoción LRU (Least Recently Used).
+- Para cambiar la política de remoción LFU (Least Frequently Used), se debe cambiar el archivo de configuración ubicado en la carpeta **redis**, reemplazando `allkeys-lru` por `allkeys-lfu`. Si el contenedor de Redis corriendo, se debe buildear y correr de nuevo.
 
 
-Se utilizó en `init.sql` provisto por los ayudantes.
+Se utilizó el `init.sql` provisto por los ayudantes.
