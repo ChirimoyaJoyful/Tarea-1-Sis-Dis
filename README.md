@@ -1,4 +1,4 @@
-
+# Tarea 1 Sistemas Distribuidos
 **INSTRUCCIONES DE USO:**
 - Descargar la carpeta del repositorio. 
 - Ejecutar comando `docker compose -f "docker-compose.yaml" up -d --build` en la carpeta raíz del proyecto para levantar el conteneder docker con los programas a utilizar. 
