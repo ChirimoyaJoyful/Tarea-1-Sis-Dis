@@ -49,16 +49,7 @@ app.use(express.json());
 
 
 
-// app.get('/', async(req,res) => {
-//     pool.query('SELECT Id FROM items', (err,res) =>{
-//         if (err){
-//             console.log(err.stack)
-//         } else{
-//             console.log(res)
-//         }
-//     })
-// });
-
+//gRPC 
 app.get('/inventory/search', async(req, res) =>{
     var term = { term: req.query.q };
     console.log(term);
@@ -85,7 +76,7 @@ app.get('/inventory/search', async(req, res) =>{
     }
 });
 
-//"SELECT * FROM items WHERE Name LIKE '%' || $1 || '%'", [q]
+
 
 app.listen(port, () =>{
     console.log('Server running on port', port);
