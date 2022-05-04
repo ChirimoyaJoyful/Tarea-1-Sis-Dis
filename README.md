@@ -3,7 +3,7 @@
 INSTRUCCIONES DE USO
 -Descargar la carpeta del repositorio.
 -Ejecutar comando docker compose -f "docker-compose.yaml" up -d --build para levantar el conteneder docker con los programas a utilizar.
--Buscar en localhost:3000/inventory/search?q=* donde * es el termino a buscar.
+-Buscar en la url "localhost:3000/inventory/search?q=*" donde * es el termino a buscar.
 
 
 CONFIGURACION DE REDIS:
